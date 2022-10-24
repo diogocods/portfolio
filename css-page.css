@@ -1,0 +1,224 @@
+/* css.gg */
+/* css.gg */
+@import url('https://css.gg/css');
+
+/* UNPKG */
+@import url('https://unpkg.com/css.gg/icons/all.css');
+
+/* JSDelivr */
+@import url('https://cdn.jsdelivr.net/npm/css.gg/icons/all.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+div.page{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: none;
+    margin: auto;
+}
+/*
+span.logo{
+    width: 100px;
+    position: absolute;
+    left: 10%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin:auto;
+    top: 30%;
+
+}
+a.text-logo{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    
+}
+a.text-logo:hover{
+    color: #212224;
+    font-weight: bold;
+    animation-duration: 8.2s;
+}
+*/ /*CSS DA LOGO EM TEXTO*/
+
+span.logo-img img{
+    width: 14%;
+    position: relative;
+    left: 10%;
+    top: -40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin:auto;
+}
+
+nav.menu-page{
+    position: absolute;
+    float: right;
+    top: 25px;
+    right:95px;
+    text-transform: uppercase;
+
+}
+nav.menu-page li.link{
+    display: inline-block;
+    position: relative;
+    right:15px;
+    margin:10px;
+
+}
+nav.menu-page li.link-cadastro{
+    display: inline-block;
+    background: #212224;
+    padding: 8px;
+    border-radius: 2px;
+    position: relative;
+    top: -2px;
+    color: #2280CC;
+}
+
+
+nav.menu-page a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+nav.menu-page .link-ativo{
+    color: #b1a8a8;
+} 
+
+header.cabecalho-page{ 
+    width: 100%;
+    background: #2280CC;
+    position: relative;
+    border-radius: 1px;
+    border:none;
+}
+header section.section-cabecalho{   
+    background: #2280CC;
+    width: 100%;
+    height: 85px;
+    position: relative;
+    border-radius: 1px;
+    border:none;
+}
+
+section.conteudo-central{
+    width: 100%;
+    height: 450px;
+    background: #222222;
+}
+
+
+section.conteudo-header{ 
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    margin: auto;
+    text-align: left;
+    left: 130px;
+    top: 200px;
+    color: #ffffff;
+    
+}
+section.conteudo-header h4{
+    background-color: #2280CC;
+    padding: 10px;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+section.conteudo-header h1{
+    color: #ffffff;
+    font-weight: bold;
+    margin: 10px auto;
+}
+section.conteudo-header span p{
+    text-align: justify;
+    text-transform: uppercase;
+}
+section.banner-section{
+    position: absolute;
+    margin: auto;
+    text-align: right;
+    top: 50px;
+    right:130px;
+}
+img.img-banner{
+    width: 480px;
+}
+div.div-container{
+    background: #2280CC; /* <- teste*/
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+}
+
+div.conteudo-container{
+    text-transform: uppercase;
+    position: 4px;
+    margin: auto;
+    text-align: justify;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    height: 80%;
+    
+}
+div.conteudo-container section{
+    display: flex;
+    width: 90%;
+    margin: auto 2px;
+    position: relative;
+    height:90%;
+    background: #222222;
+    padding: 30px;
+    top: -15px;
+}
+a.link-buttom{
+    display: flex;
+    background:#2280CC;
+    padding: 10px;
+    top: 4px;
+    border-radius: 2px;
+    position: relative;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+div.div-container-bottom{
+    position: relative;
+    width: 100%;
+    height: 82px;
+    position: relative;
+    background: #212224;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+}
+.conteudo-bottom p{
+    position: relative;
+    top: 5px;
+}
+a img.icons{
+    position: relative;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    background: #212224;
+}
